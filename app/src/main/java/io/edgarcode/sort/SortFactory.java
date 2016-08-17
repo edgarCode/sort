@@ -5,6 +5,7 @@ import io.edgarcode.sort.innersort.BubbleSort;
 import io.edgarcode.sort.innersort.ChooseSort;
 import io.edgarcode.sort.innersort.CountingSort;
 import io.edgarcode.sort.innersort.HeapSort;
+import io.edgarcode.sort.innersort.InsertSort;
 import io.edgarcode.sort.innersort.MergeSort;
 import io.edgarcode.sort.innersort.QuickSort;
 import io.edgarcode.sort.innersort.RadixSort;
@@ -26,7 +27,7 @@ public class SortFactory {
         } else if (type.equals("choose")) {
             return new ChooseSort();
         } else if (type.equals("insert")) {
-            return new BubbleSort();
+            return new InsertSort();
         } else if (type.equals("quick")) {
             return new QuickSort();
         } else if (type.equals("merge")) {

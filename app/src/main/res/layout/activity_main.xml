@@ -17,7 +17,9 @@
         android:text="常见排序" />
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="500dp">
+        android:layout_height="500dp"
+        android:scrollbars="none"
+        >
         <LinearLayout
             android:id="@+id/layout_sort"
             android:layout_width="match_parent"
